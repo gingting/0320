@@ -1,0 +1,67 @@
+@charset "utf-8";
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.container header h1 {
+    color: #FF0000;
+    font-size: 90px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.container header nav {
+    text-align: center;
+}
+.container header nav a:link {
+    color: #890505;
+    font-size: 25px;
+    text-decoration: none;
+}
+.container header nav a:hover {
+    color: #F82124;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.container header nav a:visited {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #000000;
+}
+.heroimg {
+    height: 240px;
+    background-image: url(Attachment-1.jpeg);
+    background-size: contain;
+    background-clip: content-box;
+    background-position: 2px center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+main div #01 {
+    margin-left: 10px;
+}
+main article h3 {
+    background-color: #D42E40;
+    background-size: 30px 6px;
+    border-radius: 11px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+main article p {
+    color: #1B3D6E;
+    padding-left: 18px;
+}
+main article iframe {
+    padding-left: 41px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+}
+main article img {
+    border-radius: 10px;
+    padding-left: 54px;
+}
